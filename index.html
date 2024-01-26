@@ -14,10 +14,10 @@
 <body>
     <div class="mascara-form" onclick="esconderForm()"></div>
     <header>
-        <img src="img/1705940487236.png" alt="logo-icon">
-        <a href="Home"> Home</a>
-        <a href="Nossos serviços"> Nossos Serviços</a>
-        <a href="Fale Conosco"> Fale Conosco</a>
+        <img src="img/1705940487236.png" alt="logo-icon" class="icon">
+        <a href="#home"> Home</a>
+        <a href="#nossos"> Nossos Serviços</a>
+        <p id="faleConosco" onclick="mostrarForm()">Fale Conosco</p>
     </header>
     <div class="caixa-mae">
         <div class="caixa-principal">
@@ -38,7 +38,7 @@
         <img src="img/WhatsApp-icone.png" alt="link para o whatsapp" class="link-whatsapp">
     </a>
 
-    <form class="form-fale-conosco" action="https://formcarry.com/s/axDbcq8fae0" method="POST"
+    <form id="faleconosco" class="form-fale-conosco" action="https://formcarry.com/s/axDbcq8fae0" method="POST"
         enctype="multipart/form-data">
         <input type="text" name="nome" placeholder="Seu Nome">
         <input type="tel" name="telefone" placeholder="Seu Telefone">
