@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Super Mario</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="mascara-form"></div>
-    <div>
-        <header>
-            <img src="img/1705940487236.png" alt="logo-icon">
-            <a href="Home"></a>
-            <a href="Nossos serviços"></a>
-            <a href="Fale Conosco"></a>
-        </header>
-    </div>
+    <div class="mascara-form" onclick="esconderForm()"></div>
+    <header>
+        <img src="img/1705940487236.png" alt="logo-icon">
+        <a href="Home"> Home</a>
+        <a href="Nossos serviços"> Nossos Serviços</a>
+        <a href="Fale Conosco"> Fale Conosco</a>
+    </header>
     <div class="caixa-mae">
         <div class="caixa-principal">
             <img src="img/logo.png" alt="Logo" class="logo">
             <p>Entre no mundo mágico do Mario Bros! 🍄🎮</p>
             <p> Descubra aventuras emocionantes, desafios eletrizantes e personagens icônicos. Seja parte dessa jornada
                 inesquecível! Mario Bros - onde a diversão nunca acaba! 🌟👾 #MarioBros #DiversãoSemLimites</p>
-            <button>Entre em Contato!</button>
+            <button onclick="mostrarForm()">Entre em Contato!</button>
         </div>
         <div><img src="img/1705940459739.png" alt="logo mario e luigi" class="imagem-principal"></div>
     </div>
@@ -37,11 +38,12 @@
         <img src="img/WhatsApp-icone.png" alt="link para o whatsapp" class="link-whatsapp">
     </a>
 
-    <form class="form-fale-conosco">
-        <input type="text" placeholder="Seu Nome">
-        <input type="text" placeholder="Seu Telefone">
-        <textarea placeholder="Digite seu problema aqui..."></textarea>
-        <button>Pedir Orçamento</button>
+    <form class="form-fale-conosco" action="https://formcarry.com/s/axDbcq8fae0" method="POST"
+        enctype="multipart/form-data">
+        <input type="text" name="nome" placeholder="Seu Nome">
+        <input type="tel" name="telefone" placeholder="Seu Telefone">
+        <textarea name="duvida" placeholder="Digite seu problema aqui..."></textarea>
+        <button type="submit">Pedir Orçamento</button>
 
     </form>
 

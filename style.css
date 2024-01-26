@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 .logo {
@@ -82,7 +83,6 @@ video {
 p {
     color: white;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px;
 }
 
@@ -103,6 +103,7 @@ header {
     align-items: center;
     gap: 30px;
     margin: 30px;
+    transition: 0.5s ease-in-out;
 }
 header img {
     height: 60px;
@@ -112,12 +113,14 @@ header a {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 header a:hover {
     color: #C51111;
     font-size: 25px;
-    transition: 0.5 color ease-in-out;
+    transition: 0.5s color ease-in-out;
+    transition: 0.2s font-size ease-in-out;
 }
 
 .form-fale-conosco {
@@ -130,6 +133,7 @@ header a:hover {
     left: -300px;
     padding: 20px;
     border-radius: 5px;
+    transition: left 0.7s ease-in-out;
 }
 
 input {
@@ -150,9 +154,11 @@ textarea {
 }
 
 .mascara-form {
+    visibility: hidden;
     position: fixed;
     top: 0;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(109deg, rgba(10,12,16,0.99) 15%, rgba(10,12,16,0.7) 50%, rgba(10,12,16,0.99) 85% );
+    transition: visibility 0.7s ease-in-out;
 }
