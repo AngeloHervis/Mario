@@ -28,7 +28,4 @@ O Mario é uma landing page desenvolvida para a divulgação de um serviço espe
 ## Autor
 Angelo Hervis
 - GitHub: [AngeloHervis](https://github.com/AngeloHervis)
-- LinkedIn: [Angelo Hervis](https://www.linkedin.com/in/angelohervis/)
-
-## Licença
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+- LinkedIn: [Angelo Hervis](https://www.linkedin.com/in/angelo-hervis/)
